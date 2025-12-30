@@ -1,17 +1,25 @@
 
-# EduMentor – ULTRA (Udemy-like Platform)
+# EduMentor – MERN Stack Learning Platform
 
-This is an ultra-extended, backend-integrated MERN platform.
+EduMentor is a MERN stack–based learning platform developed as a full-stack project.  
+It provides course learning with authentication, progress tracking, and certificates.
 
-## Major Features
-- Full JWT Authentication (Student / Admin)
-- Course → Module → Lesson hierarchy
-- Lesson-aware AI Chatbot (backend-integrated)
-- Progress tracking with % calculation
-- Certificates (PDF + QR)
-- Email delivery (Nodemailer)
-- Enrollment & Payment-ready (Razorpay mock)
-- Admin analytics dashboard
-- Clean scalable folder structure
+## Features
 
-This repository is intentionally verbose for learning & demonstration.
+- User authentication (Student / Admin)
+- Courses with modules and lessons
+- Lesson-wise progress tracking
+- AI chatbot support for learning assistance
+- Certificate generation after course completion
+- Downloadable certificate in PDF format
+
+## Tech Stack
+
+- Frontend: React + Vite
+- Backend: Node.js, Express
+- Database: MongoDB
+- Authentication: JWT
+- Other tools: Nodemailer, Docker
+
+
+Developed by Abinaya
